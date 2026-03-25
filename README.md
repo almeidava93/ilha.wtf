@@ -1,1 +1,1 @@
-Inspired by [pudim.com.br](http://pudim.com.br)
+Inspired by [pudim.com.br](http://pudim.com.br) and [motherfuckingwebsite.com](https://motherfuckingwebsite.com/)
