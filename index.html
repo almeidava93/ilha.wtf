@@ -14,14 +14,23 @@
             margin-bottom: 20px;
         }
     </style>
+    
 </head>
 <body>
-    <p>Ilha. What the f*ck?</p>
+    <p id="header">Ilha. What the f*ck?</p>
     <figure>
-        <img src="ilha.png" alt="ilha.wtf" class="item">
-    </figure>
-    <figure>
-        <img src="assets/graph.png" alt="ilha.wtf" class="item">
+        <img id="ilha" src="ilha.png" alt="ilha.wtf" class="item">
     </figure>
 </body>
+<script>
+        const hour = new Date().getHours();
+        if (hour >= 6 && hour < 18) {
+            // day config
+        } else {
+            // night config
+            document.body.style.backgroundColor = "#060428"; 
+            document.getElementById("ilha").src = "ilha-night.png";
+            document.getElementById("header").style.color = "#C0C0C0";
+        }
+    </script>
 </html>
